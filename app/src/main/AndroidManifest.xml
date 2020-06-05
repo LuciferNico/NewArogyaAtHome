@@ -11,9 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".OrderStatusActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".OrderCreationActivity" />
+        <activity android:name=".EnquireStatueActivity" />
+        <activity android:name=".RecommendActivity" />
+        <activity android:name=".SelectChoiceActivity" />
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+            android:label="@string/title_activity_home" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
