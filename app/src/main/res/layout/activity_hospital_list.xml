@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HospitalListActivity">
+    tools:context=".PaymentActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/HospitalList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitals List"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:textColor="@color/titleTextColor"
+        android:layout_marginBottom="600dp"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Jehangir Hospital, Pune"
+                    android:gravity="center"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Aditya Birla Memorial Hospital (ABMH), Pune"
+                    android:gravity="center"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Tata Memorial Centre, Mumbai"
+                    android:textColor="@color/textColor" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Fortis Hiranandani Hospital, Navi Mumbai"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/BackGroundImage1"
+        style="@style/BackgroundImageStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
