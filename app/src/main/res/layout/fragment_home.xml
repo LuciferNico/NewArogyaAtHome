@@ -51,6 +51,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
+                            android:id="@+id/ManangedServicesView"
                             android:layout_weight="1"
                             android:layout_gravity="center"
                             android:layout_marginRight="5dp"
@@ -180,7 +181,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/covidFighterWeaponsBtn"
+                                    android:id="@+id/buyHireMedicalInstrumentsBtn"
                                     android:background="@color/buttonBackground"
                                     android:alpha="0.3"
                                     >
@@ -224,7 +225,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/homeCareBtn"
+                                    android:id="@+id/homeVisitBtn"
                                     android:background="@color/buttonBackground"
                                     android:alpha="0.3"
                                     >
@@ -278,7 +279,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/CallAmbulanceBtn"
+                                    android:id="@+id/bookAmbulanceBtn"
                                     android:background="@color/buttonBackground"
                                     android:alpha="0.3"
                                     >
